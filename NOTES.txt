@@ -1,0 +1,4 @@
+https://learnxinyminutes.com/docs/groovy/
+https://www.guru99.com/groovy-tutorial.html
+https://groovy-lang.org/differences.html
+https://docs.groovy-lang.org/latest/html/api/groovy/sql/Sql.html
