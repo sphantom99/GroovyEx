@@ -10,6 +10,6 @@ def dbDriver   = "org.postgresql.Driver"
 def sql = Sql.newInstance(dbUrl, dbUser, dbPassword, dbDriver)
 println "The employees are: "
 sql.eachRow('select * from employee'){
-    row -> println"name:$row.name, DOB: $row.DOB"
+    row -> println("name:$row.name, DOB: $row.DOB")
 }
 sql.close()
